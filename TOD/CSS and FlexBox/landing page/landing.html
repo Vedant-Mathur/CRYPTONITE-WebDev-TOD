@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Our Awesome Website</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1F2937;
+      color: #F9FAF8;
+    }
+    
+    h1, h2, h3 {
+      margin: 0;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: #1F2937;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 900;
+      color: #F9FAF8;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #E5E7EB;
+    }
+
+    .cta-button {
+      padding: 15px 30px;
+      background-color: #3882F6;
+      border: none;
+      color: #FFFFFF;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+
+    .cta-button:hover {
+      background-color: #285DB8;
+    }
+
+    /* Information Section */
+    .information {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #F9FAF8;
+    }
+
+    .information h2 {
+      font-size: 36px;
+      font-weight: 900;
+      color: #1F2937;
+      margin-bottom: 40px;
+    }
+
+    /* Flexbox Container for Information Blocks */
+    .info-blocks {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px; /* Adding space between blocks */
+    }
+
+    .info-block {
+      background-color: #FFFFFF;
+      width: 200px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .info-block img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .info-block h3 {
+      font-size: 24px;
+      color: #1F2937;
+      margin-bottom: 10px;
+    }
+
+    .info-block p {
+      font-size: 16px;
+      color: #1F2937;
+    }
+
+    /* Quote Section */
+    .quote {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #E5E7EB;
+      font-style: italic;
+    }
+
+    .quote p {
+      font-size: 36px;
+      color: #1F2937;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1F2937;
+      color: #F9FAF8;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to Our Awesome Website</h1>
+    <p>Explore how amazing layouts and designs come together with just a little bit of flexbox magic!</p>
+    <button class="cta-button">Get Started</button>
+  </div>
+
+  <!-- Information Section -->
+  <div class="information">
+    <h2>What We Offer</h2>
+    <div class="info-blocks">
+      <div class="info-block">
+        <img src="https://via.placeholder.com/200" alt="Feature 1">
+        <h3>Feature One</h3>
+        <p>Experience the best design tools right at your fingertips, all optimized for performance.</p>
+      </div>
+      <div class="info-block">
+        <img src="https://via.placeholder.com/200" alt="Feature 2">
+        <h3>Feature Two</h3>
+        <p>Get creative with our intuitive interface that makes web design a breeze!</p>
+      </div>
+      <div class="info-block">
+        <img src="https://via.placeholder.com/200" alt="Feature 3">
+        <h3>Feature Three</h3>
+        <p>With responsive layouts, your website will look perfect on all devices.</p>
+      </div>
+      <div class="info-block">
+        <img src="https://via.placeholder.com/200" alt="Feature 4">
+        <h3>Feature Four</h3>
+        <p>Our advanced features allow for deep customization without compromising ease of use.</p>
+      </div>
+      <div class="info-block">
+        <img src="https://via.placeholder.com/200" alt="Feature 5">
+        <h3>Feature Five</h3>
+        <p>Stay ahead of the curve with the latest web design trends integrated into our platform.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quote Section -->
+  <div class="quote">
+    <p>"This website has revolutionized the way we think about web design!"</p>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 Our Awesome Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
